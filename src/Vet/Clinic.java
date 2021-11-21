@@ -2,11 +2,10 @@ package Vet;
 
 public class Clinic {
     public static void main(String[] args) {
-
-        Admin bird = new Admin("Alya", 2, Type.BIRD);
-        Admin dog = new Admin("Sharik", 5, Type.DOG);
-        Admin cat = new Admin("Kuzya", 12, Type.CAT);
-        Doctor cat1 = new Doctor("Kuzya", 12, Type.CAT);
+        Client bird = new Client("Alya", 2, Type.BIRD);
+        Client dog = new Client("Sharik", 5, Type.DOG);
+        Client cat = new Client("Kuzya", 12, Type.CAT);
+        Client cat1 = new Client("Kuzya", 12, Type.CAT);
 
         bird.add();
         dog.add();
