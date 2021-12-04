@@ -2,13 +2,8 @@ package OK;
 
 
     public class Manager extends OK {
-
-        public Manager(String name) {
-            super(name);
-        }
-
-        public Manager(int id, String name) {
-            super(id, name);
+        public Manager(int id, String name, Type type) {
+            super(id, name, type);
         }
 
         @Override
@@ -19,16 +14,6 @@ package OK;
         @Override
         void salary() {
             System.out.println("Salary " + name + " equals " + id*3);
-        }
-        @Override
-        void dis() {
-            count--;
-            System.out.println(this.name + " retired");
-        }
-        @Override
-        void add() {
-            count++;
-            System.out.println(this.name + " added");
         }
     }
 
