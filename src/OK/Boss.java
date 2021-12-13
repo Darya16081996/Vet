@@ -7,13 +7,13 @@ public class Boss extends OK{
         super(id, name, k, type);
     }
 
-    @Override
-    void vvodK() {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Input a number: ");
-        float k = in.nextInt();
+//    @Override
+//    void vvodK() {
+//        Scanner in = new Scanner(System.in);
+//        System.out.print("Input a number: ");
+//        float k = in.nextInt();
 //        char input = in.nextLine().toLowerCase().toCharArray()[0];
-    }
+//    }
 
     @Override
     public String toString() {

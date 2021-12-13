@@ -18,7 +18,7 @@ public abstract class OK {
             this.type = type;
         }
 
-        abstract void vvodK();
+//        abstract void vvodK();
 //            Scanner in = new Scanner(System.in);
 //            System.out.print("Input a number: ");
 //            float k = in.nextInt();
